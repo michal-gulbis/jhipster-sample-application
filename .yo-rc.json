@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.5.0",
+    "jwtSecretKey": "ZGJhNGY3MGFlZjBhYjViYjhiN2NlZjMzMDZmM2MxNjQzZDg1MWJjNmIyN2MxMjIyZTZmMjYxOGVjYjRiMzIxZGJkNjI1MjcxYmVkYzY2MjY0ZTIwZWVhYWYzMzMwNDY2NGFmMjVmNTdjYTdkYTdkMjA4NzViYWU1NTY1NjkyNGE="
+  },
+  "git-provider": "GitHub",
+  "git-company": "michal-gulbis",
+  "repository-name": "jhipster-sample-application"
+}
